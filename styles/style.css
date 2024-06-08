@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common shared style */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header style starts */
+header{
+    height: 600px;
+    background-image: url('../resources/banner\ image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header-title{
+    color: #090418;
+    text-align: center;
+    padding: 180px;
+    opacity: 1;
+}
+.header-title > h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.header-title > h2{
+    font-size: 55px;
+    font-weight: 700;
+} 
+
+/* happy-new-year style */
+main > div{
+    margin-top: 50px;
+}
+.happy-new-year{
+    text-align: center;
+}
+.happy-new-year > h2{
+    color: #FF0000;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.happy-new-year > h4{
+    color: #FF0000;
+    font-size: 15px;
+    font-weight: 700;
+}
+.happy-new-year > h3{
+    font-size: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Welcome-to-midnight-party style*/
+.welcome-to-midnight-party{
+    height: 600px;
+    background-image: url('../resources/Group\ 70.png'), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: 1000px 100px, center center;
+}
