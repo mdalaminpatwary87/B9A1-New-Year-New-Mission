@@ -11,7 +11,7 @@ body{
 /* header style starts */
 header{
     height: 600px;
-    background-image: url('../resources/banner\ image.png');
+    background-image: url('../resources/banner.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
