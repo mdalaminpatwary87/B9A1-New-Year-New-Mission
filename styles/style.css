@@ -29,7 +29,10 @@ header{
     font-size: 55px;
     font-weight: 700;
 } 
-
+/* main starts */
+main{
+    margin: 0 100px 0 100px;
+}
 /* happy-new-year style */
 main > div{
     margin-top: 50px;
@@ -64,7 +67,7 @@ main > div{
     background-position: 1000px 100px, center center;
 }
 .welcome-container{
-   padding-left: 200px; 
+   padding-left: 100px; 
    padding-top: 80px;
    color: white;
    width: 800px;
@@ -83,4 +86,54 @@ main > div{
     font-size: 25px;
     font-weight: 700;
 }
-
+.details-container{
+    height: 50vh;
+    background-color: #ffeaea;
+    font-weight: 700;
+}
+.details-info{
+    text-align: center;
+    padding-top: 80px;
+}
+.details-info > p{
+    margin-bottom: 15px;
+}
+.details-info > p > span{
+    color: red;
+    font-size: 18px;
+}
+.btn-details-container{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+/* new-best-offer-container style starts */
+.new-best-offer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 50px;
+}
+.new-best-offer-container > div{
+    width: 40%;
+} 
+.left-column > h4{
+    color: red;
+    margin-bottom: 20px;
+}
+.left-column > h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.right-column > h2{
+    color: red;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.right-column > img{
+    margin-top: 20px;
+}
